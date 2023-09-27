@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Task-1</title>
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* internal styling */
+      .topnav {
+        background-color: #0dcaf0;
+      }
+      .topnav .navbar-text {
+        color: rgb(0, 0, 0);
+        flex-grow: 1; /* Allow the text to expand and take up space in the middle */
+        text-align: center;
+      }
+      .botnav {
+        background-color: #a1a0af;
+      }
+      .botnav .nav-link {
+        color: white;
+      }
+      .second-container {
+        background-color: #4b4b4b;
+        color: white;
+        height: 83vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+      }
+      .first-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+      }
+      .sub_div {
+        position: absolute;
+        bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First Navbar -->
+    <nav class="navbar topnav">
+      <div class="container-fluid">
+        <span class="navbar-text h4">Ethnus layout</span>
+      </div>
+    </nav>
+
+    <!-- Second Navbar -->
+    <nav class="navbar botnav">
+      <div class="container-fluid">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+        <!-- ml-auto class is used to align navbar items to the right -->
+        <ul class="nav ml-auto">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">SIGN UP</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Container starts here -->
+    <div class="container-fluid">
+      <!-- row starts here -->
+      <div class="row">
+        <!-- row 1 col 1 -->
+        <div class="col-md-10 first-container d-flex">
+          <p style="text-align: center">Write your Content here</p>
+          <div class="sub_div">
+            <address style="color: black; text-align: bottom">
+              Made by SSS Ravi Charan &copy;
+            </address>
+          </div>
+        </div>
+        <!-- row 1 col 2 -->
+        <div class="col-md-2 second-container">
+          <p>This is</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

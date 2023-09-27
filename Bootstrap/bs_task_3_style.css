@@ -1,0 +1,62 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: #000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.66);
+}
+
+.nav-item .btn {
+  color: blue;
+  border-color: blue;
+}
+
+.nav-item .btn:hover {
+  background-color: #007afe;
+  color: white;
+}
+
+.nav-item a {
+  color: #000;
+}
+.main-content {
+  text-align: center;
+  padding: 50px;
+  justify-content: center;
+}
+.col {
+  margin: 10px;
+}
+.card {
+  height: 45vh;
+}
+
+.card-body .btn {
+  width: 100%;
+  background-color: #007aff;
+  color: white;
+}
+
+.card-body .btn:hover {
+  background-color: white;
+  color: #007afe;
+}
+
+.footer a {
+  color: #2c2c2c;
+  text-decoration: none;
+}
+.footer .header {
+  color: #000;
+  font-weight: bold;
+}
+.footer i {
+  color: #702ef5;
+  font-size: 30px;
+}
+
+.main-content .card:hover {
+  /* increasing the size of the cards when hovered */
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
