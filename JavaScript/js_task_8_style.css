@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#main_heading {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+#sub_heading {
+  color: rgb(7, 7, 159);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* vh stands for viewport height */
+}
+
+#rhs_text {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#lhs_text {
+  text-align: left;
+}
+
+form {
+  background: radial-gradient(circle at 50% 5.3%, #fefdd1 20%, #d676ba 90%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 27px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #b11a1a;
+}
+
+.login-link {
+  text-align: right;
+  padding-right: 100px;
+}
+
+.error {
+  color: red;
+  display: none;
+}
+
+.error-message {
+  color: red;
+  display: inline-block;
+  margin-left: 10px;
+}
+.narrow-select {
+  width: 50%;
+}

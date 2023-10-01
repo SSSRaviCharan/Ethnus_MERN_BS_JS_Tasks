@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#sub_heading {
+  color: #08007f;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+#movingtrain {
+  position: absolute;
+  width: 300px;
+  left: 0;
+  top: 0;
+  transition: transform 0.5s ease; /* Apply a smooth transition effect */
+}
+#buttons {
+  display: flex;
+  gap: 10px;
+}
